@@ -1,19 +1,50 @@
 aid: yunqi
-name: yunqi
-description: yunqi is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Yunqi (ClickZetta / Singdata Lakehouse)
+description: >-
+  Yunqi (云器科技, English brands ClickZetta and Singdata) is a cloud-native AI
+  Lakehouse company that unifies structured, semi-structured, and unstructured
+  data on Apache Iceberg behind a single vectorized SQL engine. Its proprietary
+  Generic Incremental Computation (GIC) model powers Dynamic Table pipelines,
+  compute-storage separation, and native AI capabilities such as vector search,
+  LLM functions, and Semantic Views. The platform is consumed programmatically
+  through JDBC, an official Python connector (PEP 249), a Java SDK, the ZettaPark
+  DataFrame API, a dbt adapter, a SQLAlchemy dialect, a Go client, and an
+  AI-agent-friendly CLI, delivered as a fully managed SaaS on Alibaba Cloud,
+  Tencent Cloud, and AWS. Backed by Qiming Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/yunqi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-from-portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.yunqi.tech/favicon.ico
 tags:
 - Company
+- Data
+- Lakehouse
+- Analytics
+- SQL
+- Cloud
+- Data Engineering
+- AI
+- Apache Iceberg
+- Database
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,56 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://yunqi.tech
+  url: https://www.yunqi.tech
+- type: DeveloperPortal
+  url: https://www.yunqi.tech/documents
+- type: Documentation
+  url: https://www.singdata.com/documents
+- type: APIReference
+  url: https://www.yunqi.tech/documents/python_reference/connector
+- type: GettingStarted
+  url: https://www.singdata.com/documents/overview
+- type: Pricing
+  url: https://www.yunqi.tech/documents/pricing
+- type: Blog
+  url: https://www.yunqi.tech/resource/blogs
+- type: SignUp
+  url: https://accounts.clickzetta.com/register
+- type: Login
+  url: https://accounts.clickzetta.com/login
+- type: TermsOfService
+  url: https://www.singdata.com/documents/service-aggrement
+- type: PrivacyPolicy
+  url: https://www.singdata.com/documents/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/clickzetta
+- type: ChangeLog
+  url: https://www.yunqi.tech/documents/releasenotes
+- type: Packages
+  url: packages/yunqi-packages.yml
+- type: SDKs
+  url: packages/yunqi-packages.yml
+- type: CLI
+  url: cli/yunqi-cli.yml
+- type: MCPServer
+  url: mcp/yunqi-mcp.yml
+- type: AgentSkill
+  url: skills/_index.yml
+- type: LLMsTxt
+  url: llms/yunqi-llms.txt
+- type: Authentication
+  url: authentication/yunqi-authentication.yml
+- type: Lifecycle
+  url: lifecycle/yunqi-lifecycle.yml
+- type: ChangeLog
+  url: changelog/yunqi-changelog.yml
+  name: Release notes (artifact)
+- type: Conformance
+  url: conformance/yunqi-conformance.yml
+- type: DomainSecurity
+  url: security/yunqi-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 11
+  pass: local-v1

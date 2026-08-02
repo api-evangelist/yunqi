@@ -1,0 +1,38 @@
+generated: '2026-07-21'
+method: derived
+source: docs + package/driver evidence
+standards:
+- id: apache-iceberg
+  conforms: true
+  evidence: Open lakehouse storage format is Apache Iceberg (stated in product docs and llms.txt).
+- id: jdbc
+  conforms: true
+  evidence: Official com.clickzetta:clickzetta-jdbc driver on Maven Central.
+- id: pep-249-dbapi
+  conforms: true
+  evidence: clickzetta-connector-python follows the Python DB-API 2.0 (PEP 249) spec.
+- id: sqlalchemy-dialect
+  conforms: true
+  evidence: clickzetta-sqlalchemy provides a SQLAlchemy dialect.
+- id: dbt-adapter
+  conforms: true
+  evidence: dbt-clickzetta adapter published on PyPI / GitHub.
+- id: ansi-sql
+  conforms: true
+  evidence: Vectorized SQL engine with documented SQL statements/functions reference.
+- id: oauth2-oidc
+  conforms: true
+  evidence: Console auth via accounts.clickzetta.com (OAuth/OIDC-protected).
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public REST/problem+json error surface (SQL/SDK access model).
+- id: soc2
+  conforms: false
+  evidence: No published SOC 2 attestation found.
+- id: iso-27001
+  conforms: false
+  evidence: No published ISO 27001 certification found.
+note: >-
+  Derived from published packages/drivers and docs. No third-party security
+  compliance program (SOC 2 / ISO 27001 / PCI / HIPAA) was found published, so no
+  Compliance pointer is emitted.

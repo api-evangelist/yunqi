@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/clickzetta/clickzetta-skills
+description: >-
+  ClickZetta publishes a first-party Agent Skills library (SKILL.md format,
+  consumable by Claude Code, Codex, and the czcode agent). The repo turns
+  ClickZetta operational knowledge into ~28 task-oriented skills plus reference
+  docs. These are provider-published; this index references them verbatim at the
+  source rather than duplicating each SKILL.md.
+repo: https://github.com/clickzetta/clickzetta-skills
+skills:
+- name: clickzetta-file-import-pipeline
+  summary: Import files from URLs, local paths, and Volumes into Lakehouse tables.
+- name: clickzetta-kafka-ingest-pipeline
+  summary: Kafka ingestion via READ_KAFKA Pipes.
+- name: clickzetta-batch-sync-pipeline
+  summary: Studio offline batch sync tasks.
+- name: clickzetta-cdc-sync-pipeline
+  summary: Multi-table CDC sync from MySQL / PostgreSQL.
+- name: clickzetta-dbt-modeling
+  summary: Source discovery, model design, and incremental materialization with dbt.
+- name: clickzetta-dynamic-table
+  summary: Create and configure Dynamic Table refresh; best practices.
+- name: clickzetta-semantic-view
+  summary: Define logical tables, dimensions, and metrics as Semantic Views.
+- name: clickzetta-zettapark
+  summary: ZettaPark DataFrame API — Session setup and transformations.
+- name: clickzetta-spark-flink-connector
+  summary: Spark / Flink read and write operations against Lakehouse.
+- name: clickzetta-ai-function
+  summary: Use AI_COMPLETE and AI_EMBEDDING SQL functions.
+- name: clickzetta-volume-manager
+  summary: External / User / Table Volumes and file operations.
+- name: clickzetta-table-lineage
+  summary: Lineage visualization via information_schema.job_history.
+notes: >-
+  Full list is 28 skills plus official docs and one independent skill; the
+  entries above are representative marquee flows. See the repo for the complete,
+  authoritative SKILL.md set.

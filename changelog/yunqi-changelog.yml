@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.yunqi.tech/documents/releasenotes
+scheme: rolling-release-notes + per-component semver
+tracks:
+- name: Lakehouse Studio
+  url: https://www.yunqi.tech/documents/releasenotes
+- name: Lakehouse Platform
+  url: https://www.yunqi.tech/documents/releasenotes
+- name: Analytics Agent
+  url: https://www.yunqi.tech/documents/releasenotes
+- name: AI Gateway
+  url: https://www.yunqi.tech/documents/releasenotes
+components:
+- name: clickzetta-jdbc (Maven Central)
+  current_version: 4.0.0
+  latest_release: '2026-02-04'
+  url: https://central.sonatype.com/artifact/com.clickzetta/clickzetta-jdbc
+- name: clickzetta-connector-python (PyPI)
+  current_version: 0.8.109
+  latest_release: '2025-12-24'
+  url: https://pypi.org/project/clickzetta-connector-python/
+entries: []
+note: >-
+  ClickZetta publishes a live release-notes hub segmented by product track plus
+  per-SDK version-history pages. Dated per-version highlights were not scraped
+  into structured entries[] to avoid fabrication; the component versions above
+  are verified from Maven Central / PyPI. The release-notes hub is the source of
+  truth for the recent window.

@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/clickzetta
+clis:
+- name: cz-cli
+  repo: https://github.com/clickzetta/cz-cli
+  description: AI-Agent-friendly command-line interface for ClickZetta Lakehouse.
+  official: true
+- name: cz-tool
+  repo: https://github.com/clickzetta/cz-tool
+  description: Command-line tooling for ClickZetta products.
+  official: true
+- name: czcode
+  repo: https://github.com/clickzetta/czcode
+  description: Lakehouse AI coding agent / programming assistant for data teams (SKILL.md-aware).
+  official: true
+surface:
+  auth: Connection to a ClickZetta instance/workspace/virtual cluster via account credentials or key-pair.
+  primary_flows:
+  - Run SQL against a workspace / virtual cluster
+  - Manage schemas, tables, volumes and pipes
+  - Agent-driven data engineering workflows (via czcode + clickzetta-skills)
+notes: >-
+  ClickZetta ships an agent-oriented CLI family rather than a single monolithic
+  binary. cz-cli is explicitly designed to be driven by AI agents; czcode is the
+  agentic coding assistant that consumes the clickzetta-skills SKILL.md library.

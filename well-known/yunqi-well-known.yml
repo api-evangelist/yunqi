@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: probed
+source: live probe of /.well-known/* on provider hosts
+note: >-
+  No genuine well-known discovery documents were found. The ClickZetta console
+  host (accounts.clickzetta.com) returns its single-page-app HTML with HTTP 200
+  for every path, so the 200s below are SPA fall-through, not real discovery
+  documents — they were not saved as artifacts. The marketing/docs hosts return
+  clean 404s. Absence of a well-known catalog is the honest, recorded result.
+hosts:
+- host: https://www.yunqi.tech
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+- host: https://www.singdata.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+- host: https://accounts.clickzetta.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 200, note: SPA-html-not-json}
+  - {path: /.well-known/oauth-authorization-server, status: 200, note: SPA-html-not-json}
+  - {path: /.well-known/api-catalog, status: 200, note: SPA-html-not-json}
+  - {path: /.well-known/ai-plugin.json, status: 404}

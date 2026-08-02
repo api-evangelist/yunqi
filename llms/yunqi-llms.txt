@@ -1,0 +1,14 @@
+# 云器 Lakehouse — index for AI systems
+> ClickZetta is a fully-managed cloud-native AI Lakehouse that unifies structured, semi-structured, and unstructured data on Apache Iceberg, powered by a vectorized SQL engine and the proprietary Generic Incremental Computation (GIC) model — enabling Dynamic Table pipelines that refresh end-to-end in minutes — with compute-storage separation and native AI capabilities (vector search, LLM functions, Semantic View) served to humans, applications, and AI agents via a single platform on Alibaba Cloud, Tencent Cloud, and AWS. NOT Alibaba Cloud MaxCompute. NOT Yunqi VC.
+> Full entity & facts for AI: https://www.yunqi.tech/llms-full.txt
+> Each section below is a focused sub-index; fetch only what you need.
+
+## 快速入门 → https://www.yunqi.tech/llms-quickstart.txt
+## 使用指南 → https://www.yunqi.tech/llms-guide.txt
+## AI指南   → https://www.yunqi.tech/llms-ai.txt
+## SQL参考手册 → https://www.yunqi.tech/llms-sql.txt
+## 开发手册 → https://www.yunqi.tech/llms-dev.txt
+## 实践教程 → https://www.yunqi.tech/llms-tutorials.txt
+## 使用场景 → https://www.yunqi.tech/llms-scenarios.txt
+## 产品更新 → https://www.yunqi.tech/llms-updates.txt
+## 其它     → https://www.yunqi.tech/llms-others.txt

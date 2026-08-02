@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+status: published
+source: https://github.com/yunqiqiliang/mcp-clickzetta-server
+official: false
+server:
+  name: mcp-clickzetta-server
+  transport: stdio
+  description: >-
+    Model Context Protocol server for ClickZetta Lakehouse. Lets AI assistants
+    (Claude Desktop, Trae) run SQL queries against a ClickZetta Lakehouse and
+    manage a memo of data insights exposed as an MCP resource. Configured with
+    ClickZetta service, instance, workspace, schema, and virtual cluster
+    connection details.
+  repos:
+  - https://github.com/yunqiqiliang/mcp-clickzetta-server
+  - https://glama.ai/mcp/servers/@yunqiqiliang/mcp-clickzetta-server
+tools:
+- name: run_query
+  description: Run a SQL query against the connected ClickZetta Lakehouse.
+- name: list_tables
+  description: List tables in the connected schema.
+- name: describe_table
+  description: Describe a table's columns / schema.
+- name: append_insight
+  description: Append a data insight to the insights memo resource.
+notes: >-
+  Community-maintained MCP server (author yunqiqiliang), not published under the
+  official clickzetta GitHub org, so official is false. ClickZetta also documents
+  an MCP Server product on its blog and ships AI-agent-friendly CLI/skills.
+  Tool list reflects the standard database-MCP surface described in the server's
+  documentation; treat as the documented surface, not an exhaustive manifest.

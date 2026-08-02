@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.yunqi.tech/documents/releasenotes
+versioning:
+  scheme: semver-per-component
+  detail: >-
+    Each client/component is versioned independently (JDBC SDK 4.0.0, Python
+    connector clickzetta-connector-python 0.8.109). The platform ships rolling
+    release notes across four product tracks: Lakehouse Studio, Lakehouse
+    Platform, Analytics Agent, and AI Gateway.
+  release_notes: https://www.yunqi.tech/documents/releasenotes
+  sdk_version_history:
+  - https://www.yunqi.tech/documents/version-update
+  - https://www.yunqi.tech/documents/python-sdk-version-history
+  - https://www.yunqi.tech/documents/python-sqlalchemy-version-history
+deprecation:
+  policy_url: null
+  detail: >-
+    No formal Sunset/Deprecation header policy published for a REST surface (the
+    product is SQL/SDK-based). SDK version histories document interface
+    transitions such as BulkLoadV1 -> BulkLoadV2.
+sla:
+  url: https://www.singdata.com/documents/service-aggrement
+status_page: null
+status_page_note: No public status page was found (status.yunqi.tech / status.clickzetta.com do not resolve).
+deprecated_operations: []

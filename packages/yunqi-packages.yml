@@ -1,0 +1,62 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/clickzetta + PyPI + Maven Central
+packages:
+- language: python
+  registry: pypi
+  name: clickzetta-connector-python
+  url: https://pypi.org/project/clickzetta-connector-python/
+  install: pip install clickzetta-connector-python
+  description: Official ClickZetta Python connector (PEP 249 DB-API); SQL query, param binding, bulkload and realtime write.
+  version: 0.8.109
+  license: Apache-2.0
+  official: true
+- language: python
+  registry: pypi
+  name: clickzetta-connector
+  url: https://pypi.org/project/clickzetta-connector/
+  install: pip install clickzetta-connector
+  description: ClickZetta Python connector (SQL interface).
+  official: true
+- language: python
+  registry: pypi
+  name: clickzetta-sqlalchemy
+  url: https://pypi.org/project/clickzetta-sqlalchemy/
+  install: pip install clickzetta-sqlalchemy
+  description: SQLAlchemy dialect adapter for ClickZetta Lakehouse.
+  official: true
+- language: python
+  registry: pypi
+  name: dbt-clickzetta
+  url: https://pypi.org/project/dbt-clickzetta/
+  install: pip install dbt-clickzetta
+  description: dbt (data build tool) adapter for ClickZetta Lakehouse.
+  official: true
+- language: java
+  registry: maven-central
+  name: com.clickzetta:clickzetta-jdbc
+  url: https://central.sonatype.com/artifact/com.clickzetta/clickzetta-jdbc
+  install: 'implementation("com.clickzetta:clickzetta-jdbc:4.0.0")'
+  description: JDBC SDK / driver for ClickZetta Lakehouse.
+  version: 4.0.0
+  license: Apache-2.0
+  official: true
+- language: java
+  registry: maven-central
+  name: com.clickzetta (group)
+  url: https://central.sonatype.com/namespace/com.clickzetta
+  description: ClickZetta Java artifacts group; includes JDBC SDK, ingestion SDK (clickzetta-igs), Pipe SDK, and common lib.
+  official: true
+- language: go
+  registry: github
+  name: goclickzetta
+  url: https://github.com/clickzetta/goclickzetta
+  install: go get github.com/clickzetta/goclickzetta
+  description: Go language client for ClickZetta Lakehouse.
+  official: true
+- language: python
+  registry: pypi
+  name: dbt-clickzetta (adapter repo)
+  url: https://github.com/clickzetta/dbt-clickzetta
+  description: Source repo for the dbt adapter.
+  official: true

@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.yunqi.tech/documents/python_reference/connector + JDBC guide
+note: >-
+  ClickZetta Lakehouse is accessed via SQL over JDBC / the Python connector /
+  ZettaPark rather than a public REST API, so there is no OpenAPI securitySchemes
+  block to derive from. This profile is captured from the SDK/driver connection
+  docs.
+summary:
+  types: [username-password, key-pair, oauth2]
+  transport: [jdbc, python-connector, zettapark, http-console]
+schemes:
+- name: JDBC username/password
+  type: connection-string
+  detail: >-
+    jdbc:clickzetta://{jdbcurl}/{workspace}?username={username}&password={password}
+    — connect to a workspace on a named instance/virtual cluster.
+  source: https://www.yunqi.tech/documents/java_reference/jdbc
+- name: Python connector credentials
+  type: connection-params
+  detail: >-
+    clickzetta.connect(username, password, service, instance, workspace, schema,
+    vcluster) — the Python connector authenticates with account credentials and
+    targets a service/instance/workspace/virtual-cluster.
+  source: https://www.yunqi.tech/documents/python_reference/connector
+- name: Console OAuth / OIDC
+  type: oauth2
+  detail: >-
+    Interactive users authenticate through the ClickZetta account service at
+    accounts.clickzetta.com (register/login); the console is an OAuth/OIDC
+    protected SPA.
+  source: https://accounts.clickzetta.com/login
