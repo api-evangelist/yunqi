@@ -6,11 +6,9 @@ official: false
 server:
   name: mcp-clickzetta-server
   transport: stdio
-  description: >-
-    Model Context Protocol server for ClickZetta Lakehouse. Lets AI assistants
-    (Claude Desktop, Trae) run SQL queries against a ClickZetta Lakehouse and
-    manage a memo of data insights exposed as an MCP resource. Configured with
-    ClickZetta service, instance, workspace, schema, and virtual cluster
+  description: Model Context Protocol server for ClickZetta Lakehouse. Lets AI assistants (Claude Desktop,
+    Trae) run SQL queries against a ClickZetta Lakehouse and manage a memo of data insights exposed as
+    an MCP resource. Configured with ClickZetta service, instance, workspace, schema, and virtual cluster
     connection details.
   repos:
   - https://github.com/yunqiqiliang/mcp-clickzetta-server
@@ -24,9 +22,16 @@ tools:
   description: Describe a table's columns / schema.
 - name: append_insight
   description: Append a data insight to the insights memo resource.
-notes: >-
-  Community-maintained MCP server (author yunqiqiliang), not published under the
-  official clickzetta GitHub org, so official is false. ClickZetta also documents
-  an MCP Server product on its blog and ships AI-agent-friendly CLI/skills.
-  Tool list reflects the standard database-MCP surface described in the server's
-  documentation; treat as the documented surface, not an exhaustive manifest.
+notes: Community-maintained MCP server (author yunqiqiliang), not published under the official clickzetta
+  GitHub org, so official is false. ClickZetta also documents an MCP Server product on its blog and ships
+  AI-agent-friendly CLI/skills. Tool list reflects the standard database-MCP surface described in the
+  server's documentation; treat as the documented surface, not an exhaustive manifest.
+deployment:
+  mode: none
+  endpoint: https://glama.ai/mcp/servers/@yunqiqiliang/mcp-clickzetta-server
+  verified: probed
+  probe: dead
+  note: the endpoint this manifest claimed did not answer; recorded as none rather than deleted so the
+    claim stays auditable
+  checked: '2026-08-12'
+  source: catalog MCP census
