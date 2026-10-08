@@ -1,0 +1,24 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.yunqi.tech/documents/pricing
+sources:
+- https://www.yunqi.tech/documents/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: per-call
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: 'No numeric price is published on the pricing page; Overview page for 云器 pricing: Lakehouse billed
+  by compute (CRU), storage and network transfer; AI Gateway billed per Token with rates varying by model;
+  Analytics Agent is subscription plus Token usage with tiered overage. No numeric prices shown — only
+  links to detailed billing docs and a 联系销售 option for annual prepaid enterprise purchase (which mentions
+  support for private deployment).'
+plan_count: 0
+plans: []
