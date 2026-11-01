@@ -1,4 +1,4 @@
-# yunqi
+# Yunqi (ClickZetta / Singdata Lakehouse)
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-yunqi is a company surfaced as a portfolio company of qiming and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Yunqi (云器科技, English brands ClickZetta and Singdata) is a cloud-native AI Lakehouse company that unifies structured, semi-structured, and unstructured data on Apache Iceberg behind a single vectorized SQL engine. Its proprietary Generic Incremental Computation (GIC) model powers Dynamic Table pipelines, compute-storage separation, and native AI capabilities such as vector search, LLM functions, and Semantic Views. The platform is consumed programmatically through JDBC, an official Python connector (PEP 249), a Java SDK, the ZettaPark DataFrame API, a dbt adapter, a SQLAlchemy dialect, a Go client, and an AI-agent-friendly CLI, delivered as a fully managed SaaS on Alibaba Cloud, Tencent Cloud, and AWS. Backed by Qiming Venture Partners.
 
-Backed by: qiming — https://yunqi.tech
+**Areas:** Company · Data · Lakehouse · Analytics · SQL · Cloud · Data Engineering · Artificial Intelligence · Apache Iceberg · Database
+
+## Yunqi (ClickZetta / Singdata Lakehouse) on APIs.io
+
+Everything profiled for Yunqi (ClickZetta / Singdata Lakehouse) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/yunqi/](https://apis.io/providers/yunqi/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [mcp-clickzetta-server](https://apis.io/servers/yunqi/mcp-clickzetta-server/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Yunqi Authentication](https://apis.io/security/yunqi/yunqi-authentication/)
+- [Yunqi Domain Security](https://apis.io/security/yunqi/yunqi-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Yunqi Plans Pricing](https://apis.io/plans/yunqi/yunqi-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.yunqi.tech)
+- [Documentation](https://www.singdata.com/documents)
+- [Getting started](https://www.singdata.com/documents/overview)
+- [API reference](https://www.yunqi.tech/documents/python_reference/connector)
+- [Pricing](https://www.yunqi.tech/documents/pricing)
+- [Sign up](https://accounts.clickzetta.com/register)
+- [Changelog](https://www.yunqi.tech/documents/releasenotes)
+- [Blog](https://www.yunqi.tech/resource/blogs)
+- [Terms of service](https://www.singdata.com/documents/service-aggrement)
+- [Privacy policy](https://www.singdata.com/documents/privacy-policy)
+- [GitHub](https://github.com/clickzetta)
+
+## API Evangelist rating
+
+**Kin Score 32.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 4.5 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 73.8 |
+| Access clarity | 38.2 |
+
+**Agent readiness 6.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | yes |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/yunqi/](https://apis.io/providers/yunqi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Yunqi (ClickZetta / Singdata Lakehouse): the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/yunqi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
