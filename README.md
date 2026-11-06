@@ -72,15 +72,131 @@ Yunqi (云器科技, English brands ClickZetta and Singdata) is a cloud-native A
 
 Everything profiled for Yunqi (ClickZetta / Singdata Lakehouse) is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/yunqi/](https://apis.io/providers/yunqi/)** — or go straight to one of the APIs or properties below.
 
+### APIs (58)
+
+- [Yunqi (ClickZetta / Singdata Lakehouse) Dqc API](https://apis.io/apis/yunqi/yunqi-dqc-api/) — 数据质量规则管理
+- [Yunqi (ClickZetta / Singdata Lakehouse) Instance API](https://apis.io/apis/yunqi/yunqi-instance-api/) — 实例管理
+- [Yunqi (ClickZetta / Singdata Lakehouse) Multi Realtime Di Task API](https://apis.io/apis/yunqi/yunqi-multirealtimeditask-api/) — 库表同步任务管理
+- [Yunqi (ClickZetta / Singdata Lakehouse) Realtime Task API](https://apis.io/apis/yunqi/yunqi-realtimetask-api/) — 实时任务管理
+- [Yunqi (ClickZetta / Singdata Lakehouse) Schedule Task API](https://apis.io/apis/yunqi/yunqi-scheduletask-api/) — 调度任务与组合任务管理
+- [Yunqi (ClickZetta / Singdata Lakehouse) User Management API](https://apis.io/apis/yunqi/yunqi-user-management-api/) — 用户管理
+- [Yunqi (ClickZetta / Singdata Lakehouse) Virtual Cluster API](https://apis.io/apis/yunqi/yunqi-virtualcluster-api/) — 虚拟集群管理
+- [Yunqi (ClickZetta / Singdata Lakehouse) Workspace API](https://apis.io/apis/yunqi/yunqi-workspace-api/) — 工作空间管理
+- [Yunqi (ClickZetta / Singdata Lakehouse) Agent Builder API](https://apis.io/apis/yunqi/yunqi-agent-builder-api/) — Kilo agent builder routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Anaconda Desktop API](https://apis.io/apis/yunqi/yunqi-anaconda-desktop-api/) — Local Anaconda Desktop provider setup routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Background Process API](https://apis.io/apis/yunqi/yunqi-background-process-api/) — Kilo background process routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Branch Name API](https://apis.io/apis/yunqi/yunqi-branch-name-api/) — Kilo branch name routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Commands API](https://apis.io/apis/yunqi/yunqi-commands-api/) — Experimental command routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Commit Message API](https://apis.io/apis/yunqi/yunqi-commit-message-api/) — Kilo commit message routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Config API](https://apis.io/apis/yunqi/yunqi-config-api/) — Experimental HttpApi config routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Config Console API](https://apis.io/apis/yunqi/yunqi-config-console-api/) — Kilo Console config routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Control API](https://apis.io/apis/yunqi/yunqi-control-api/) — Control plane routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Control Plane API](https://apis.io/apis/yunqi/yunqi-controlplane-api/) — Control-plane orchestration routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Enhance Prompt API](https://apis.io/apis/yunqi/yunqi-enhance-prompt-api/) — Kilo enhance prompt routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Event API](https://apis.io/apis/yunqi/yunqi-event-api/) — Instance event stream route.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Events API](https://apis.io/apis/yunqi/yunqi-events-api/) — Experimental event stream route.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Experimental API](https://apis.io/apis/yunqi/yunqi-experimental-api/) — Experimental HttpApi read-only routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) File API](https://apis.io/apis/yunqi/yunqi-file-api/) — Experimental HttpApi file routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Filesystem API](https://apis.io/apis/yunqi/yunqi-filesystem-api/) — Experimental location-scoped filesystem routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Global API](https://apis.io/apis/yunqi/yunqi-global-api/) — Global server routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Indexing API](https://apis.io/apis/yunqi/yunqi-indexing-api/) — Kilo indexing routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Instance Reload API](https://apis.io/apis/yunqi/yunqi-instance-reload-api/) — Kilo instance reload route.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Integrations API](https://apis.io/apis/yunqi/yunqi-integrations-api/) — Integration discovery and authentication routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Kilo API](https://apis.io/apis/yunqi/yunqi-kilo-api/) — Kilo Gateway routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Kilo HttpApi API](https://apis.io/apis/yunqi/yunqi-kilo-httpapi-api/) — Experimental HttpApi surface for selected instance routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Kilocode API](https://apis.io/apis/yunqi/yunqi-kilocode-api/) — Kilo-specific routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) MCP API](https://apis.io/apis/yunqi/yunqi-mcp-api/) — Experimental HttpApi MCP routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Memory API](https://apis.io/apis/yunqi/yunqi-memory-api/) — Kilo memory routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Messages API](https://apis.io/apis/yunqi/yunqi-messages-api/) — Experimental message routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Migrate API](https://apis.io/apis/yunqi/yunqi-migrate-api/) — Kilo routes for migrating sessions from other coding agents into Kilo.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Models API](https://apis.io/apis/yunqi/yunqi-models-api/) — Experimental model routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Network API](https://apis.io/apis/yunqi/yunqi-network-api/) — Kilo network routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Permission API](https://apis.io/apis/yunqi/yunqi-permission-api/) — Experimental HttpApi permission routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Permissions API](https://apis.io/apis/yunqi/yunqi-permissions-api/) — Experimental permission routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Project API](https://apis.io/apis/yunqi/yunqi-project-api/) — Experimental HttpApi project routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Project Copy API](https://apis.io/apis/yunqi/yunqi-projectcopy-api/) — Project copy management routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Provider API](https://apis.io/apis/yunqi/yunqi-provider-api/) — Experimental HttpApi provider routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Providers API](https://apis.io/apis/yunqi/yunqi-providers-api/) — Experimental provider routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Pty API](https://apis.io/apis/yunqi/yunqi-pty-api/) — PTY websocket route.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Question API](https://apis.io/apis/yunqi/yunqi-question-api/) — Question routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Reference API](https://apis.io/apis/yunqi/yunqi-reference-api/) — Location-scoped project references.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Remote API](https://apis.io/apis/yunqi/yunqi-remote-api/) — Kilo remote connection routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Sandbox API](https://apis.io/apis/yunqi/yunqi-sandbox-api/) — Kilo session sandbox routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Session API](https://apis.io/apis/yunqi/yunqi-session-api/) — Experimental HttpApi session routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Session Import API](https://apis.io/apis/yunqi/yunqi-session-import-api/) — Kilo legacy session import routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) session questions API](https://apis.io/apis/yunqi/yunqi-session-questions-api/) — Experimental session question routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Sessions API](https://apis.io/apis/yunqi/yunqi-sessions-api/) — Experimental session routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Skills API](https://apis.io/apis/yunqi/yunqi-skills-api/) — Experimental skill routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Suggestion API](https://apis.io/apis/yunqi/yunqi-suggestion-api/) — Kilo suggestion routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Sync API](https://apis.io/apis/yunqi/yunqi-sync-api/) — Experimental HttpApi sync routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Telemetry API](https://apis.io/apis/yunqi/yunqi-telemetry-api/) — Kilo telemetry routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Tui API](https://apis.io/apis/yunqi/yunqi-tui-api/) — Experimental HttpApi TUI routes.
+- [Yunqi (ClickZetta / Singdata Lakehouse) Data Source API](https://apis.io/apis/yunqi/yunqi-data-source-api/) — 数据源连接管理
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Yunqi Webhooks](https://apis.io/asyncapis/yunqi/yunqi-webhooks/)
 
 #### MCP servers (1)
 
 Model Context Protocol servers that expose the API to agents.
 
 - [mcp-clickzetta-server](https://apis.io/servers/yunqi/mcp-clickzetta-server/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Yunqi Agentic Access](https://apis.io/agentic-access/yunqi/yunqi-agentic-access/)
+
+#### JSON Schema (44)
+
+The data models the API reads and writes.
+
+- [AddRuleResponse](https://apis.io/schemas/yunqi/yunqi-add-rule-response/)
+- [BooleanDataResponse](https://apis.io/schemas/yunqi/yunqi-boolean-data-response/)
+- [DataSourceCreateRequest](https://apis.io/schemas/yunqi/yunqi-data-source-create-request/)
+- [DataSourceListRequest](https://apis.io/schemas/yunqi/yunqi-data-source-list-request/)
+- [DataSourceListResponse](https://apis.io/schemas/yunqi/yunqi-data-source-list-response/)
+- [DataSourceTestRequest](https://apis.io/schemas/yunqi/yunqi-data-source-test-request/)
+- [DataSourceUpdateRequest](https://apis.io/schemas/yunqi/yunqi-data-source-update-request/)
+- [DqcRuleRequest](https://apis.io/schemas/yunqi/yunqi-dqc-rule-request/)
+- [FlowNodeCreateRequest](https://apis.io/schemas/yunqi/yunqi-flow-node-create-request/)
+- [InstanceCreateRequest](https://apis.io/schemas/yunqi/yunqi-instance-create-request/)
+- [InstanceCreateResponse](https://apis.io/schemas/yunqi/yunqi-instance-create-response/)
+- [MultiRtDiExecuteRequest](https://apis.io/schemas/yunqi/yunqi-multi-rt-di-execute-request/)
+- [MultiRtDiListRequest](https://apis.io/schemas/yunqi/yunqi-multi-rt-di-list-request/)
+- [MultiRtDiListResponse](https://apis.io/schemas/yunqi/yunqi-multi-rt-di-list-response/)
+- [MultiRtDiTableInstanceListResponse](https://apis.io/schemas/yunqi/yunqi-multi-rt-di-table-instance-list-response/)
+- [MultiRtDiTableListRequest](https://apis.io/schemas/yunqi/yunqi-multi-rt-di-table-list-request/)
+- [MultiRtDiTableListResponse](https://apis.io/schemas/yunqi/yunqi-multi-rt-di-table-list-response/)
+- [ObservedAuthenticationError](https://apis.io/schemas/yunqi/yunqi-observed-authentication-error/)
+- [QueryEntityRuleResponse](https://apis.io/schemas/yunqi/yunqi-query-entity-rule-response/)
+- [QueryRuleTaskResponse](https://apis.io/schemas/yunqi/yunqi-query-rule-task-response/)
+- [RealtimeTaskGetDetailResponse](https://apis.io/schemas/yunqi/yunqi-realtime-task-get-detail-response/)
+- [RealtimeTaskIdRequest](https://apis.io/schemas/yunqi/yunqi-realtime-task-id-request/)
+- [RealtimeTaskListRequest](https://apis.io/schemas/yunqi/yunqi-realtime-task-list-request/)
+- [RealtimeTaskListResponse](https://apis.io/schemas/yunqi/yunqi-realtime-task-list-response/)
+- [RealtimeTaskStartRequest](https://apis.io/schemas/yunqi/yunqi-realtime-task-start-request/)
+- …and 19 more published on APIs.io
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Yunqi Context](https://apis.io/jsonld/yunqi/yunqi-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Yunqi (ClickZetta / Singdata Lakehouse) API Rules](https://apis.io/rules/yunqi/yunqi-rules/)
 
 #### Security (2)
 
@@ -94,6 +210,12 @@ Authentication, trust centre, and vulnerability disclosure.
 Published plans, tiers and prices.
 
 - [Yunqi Plans Pricing](https://apis.io/plans/yunqi/yunqi-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Yunqi Rate Limits](https://apis.io/rate-limits/yunqi/yunqi-rate-limits/)
 
 ## Where to find this API
 
@@ -113,7 +235,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 32.0** — thin · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 32.0** — thin · rubric 0.25.0 · scored 2026-10-23
 
 | Facet | Score |
 |---|---|
@@ -147,6 +269,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
 **Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
 
